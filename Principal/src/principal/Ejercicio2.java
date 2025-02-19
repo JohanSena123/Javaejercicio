@@ -15,6 +15,7 @@ public class Ejercicio2 {
         Scanner TomarDatos = new Scanner (System.in);
         System.out.println("Por favor Ingrese al piso que desea subir: 1 2 3 4 5 6 7 8 9 10");
         int piso = TomarDatos.nextInt();
+        TomarDatos.close();
         
         if (piso>0 && piso<11){
             System.out.println("Llego al piso " +piso);  

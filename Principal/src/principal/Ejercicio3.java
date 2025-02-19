@@ -18,7 +18,7 @@ public class Ejercicio3 {
         
         System.out.println("Ingrese el piso al que desea ir: ");
         int piso = TomarDatos.nextInt();
-        
+         TomarDatos.close();
         if (peso< 100){
             System.out.println("Su peso es " +peso+ " es el adecuado. Moviendo... al piso " +piso);
         }

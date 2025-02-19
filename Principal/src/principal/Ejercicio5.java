@@ -15,7 +15,7 @@ public class Ejercicio5 {
         Scanner TomarDatos = new Scanner(System.in);
         System.out.println("Ingrese su temperatura actual: ");
         int temperatura = TomarDatos.nextInt();
-        
+         TomarDatos.close();
         if (temperatura>0 && temperatura<26){
             System.out.println("Su temperatura es normal");
         }

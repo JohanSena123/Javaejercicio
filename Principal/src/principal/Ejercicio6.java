@@ -16,16 +16,15 @@ public class Ejercicio6 {
         System.out.println("Ingrese su temperatura actual: ");
         int temperatura = TomarDatos.nextInt();
         
-        System.out.println("Ingrese el piso al que desea ir: 1 2 3 4 5 6 7 8 9 ");
-        int piso = TomarDatos.nextInt();
         
-        if (temperatura<30 && temperatura>0 && piso>0 && piso<10){
-            System.out.println("La temperatura ambiente es la adecuada puede ir al piso " +piso);
+        if (temperatura<30 && temperatura>0){
+            System.out.println("La temperatura ambiente es la adecuada");
+            System.out.println("Ingrese el piso al que desea ir: ");
+            int piso = TomarDatos.nextInt();
+            System.out.println ("Subiendo... Has subido al piso seleccionado");
         }
         else{
-            System.out.println("La temperatura ambiente no es la adecuada no puede ir al piso " +piso);
-        }
-        
-            
+            System.out.println("La temperatura ambiente no es la adecuada no puede ir al piso que desea");
+        }    
     }
 }
