@@ -17,7 +17,7 @@ public class Ejercicio8 {
     int peso=TomarDatos.nextInt();
     
     System.out.println("Ingrese su altura en metros: ");
-    int altura=TomarDatos.nextInt();
+    float altura=TomarDatos.nextFloat();
     
     while (peso <= 0) {
             System.out.println("Por favor, ingrese una cantidad positiva: ");
@@ -27,7 +27,7 @@ public class Ejercicio8 {
             altura = TomarDatos.nextInt();}
       
     
-    int IMC=peso*altura^2;
+    float IMC=peso/(altura*altura);
     
     System.out.println("Su IMC es: "+IMC);
     System.out.println("Selecciona 1 si su peso fue menor menor a 18.5");

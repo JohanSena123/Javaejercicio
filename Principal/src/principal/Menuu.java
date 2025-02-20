@@ -37,10 +37,13 @@ public class Menuu {
             case 8:
                 Ejercicio8 objEjercicio8=new Ejercicio8();
                 break;
+            case 9:
+                Ejercicio9 obEjercicio9=new Ejercicio9();
+                break;
             default:
                 System.out.println("Opcion no valida");
-        
-        
+                break;
+                
         }
         
         
